@@ -1,16 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  letter-spacing: 1px;
+  font-family: "poppins",Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.bgimage{
+  background-image: linear-gradient(rgba(20, 20, 20, 0.575), rgba(0, 0, 0, 0.75)), url(/public/images/gg.jpeg);
+  background-position: 50%; 
+  height: 600px;
 }
+
+.curve{
+  height: 50px; 
+  transform: scale(2);
+  transform-origin: top center; 
+  color: #fff;
+}
+
+.tes1{
+  background-color: #609099;
+}
+
+.tes2{
+  background-color: #7a81a8;
+}
+.tes3{
+  background-color: #6d5b98;
+}
+
+.team1{
+  width: 150px
+}
+.gallary-image{
+  background-position: 50%
+}
+
+.bg1{
+  background-color: rgba(0, 0, 0, 0.3)
+}
+.bg2{
+  background-color: rgba(253, 253, 253, 0.15)
+}
+
+.mm{
+  background-position: 50%;
+  background-image: url(/public/images/gg.jpeg);
+  height: 600px;
+}
+
+.bb{
+  background-color: rgba(0, 0, 0, 0.75)
+}
+
+
 
 @tailwind base;
 @tailwind components;
