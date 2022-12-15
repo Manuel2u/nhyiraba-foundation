@@ -2,7 +2,6 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import {
-
   HomeIcon,
   IdentificationIcon,
   MenuIcon,
@@ -49,8 +48,6 @@ const solutions = [
   },
 ];
 
-
-
 export default function Header() {
   return (
     <Popover className="sticky z-20 top-0 left-0 right-0 bg-white">
@@ -72,7 +69,6 @@ export default function Header() {
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
-
             <NavLink
               to="/"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
@@ -95,17 +91,16 @@ export default function Header() {
               href="/under"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               Blog
             </a>
             <NavLink
               to="/faqs"
               className="text-base font-medium text-gray-500 hover:text-gray-900"
-
             >
               Contact
             </NavLink>
-
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
             <a
@@ -113,7 +108,6 @@ export default function Header() {
               className="ml-8 gap-x-2 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-700 hover:bg-sky-800"
             >
               Donate
-
             </a>
           </div>
         </div>
@@ -168,12 +162,11 @@ export default function Header() {
                   ))}
                 </nav>
               </div>
-
             </div>
             <div>
               <a
                 href="/under"
-                className="mx-4 flex items-center justify-center  py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-sky-700 hover:bg-sky-800"
+                className="mx-4 flex items-center justify-center  py-2 border border-transparent shadow-sm text-base font-medium text-white bg-sky-700 hover:bg-sky-800"
               >
                 Donate
               </a>
@@ -183,9 +176,7 @@ export default function Header() {
                   Apply Now
                 </a>
               </p>
-
             </div>
-
           </div>
         </Popover.Panel>
       </Transition>

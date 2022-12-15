@@ -23,7 +23,7 @@ const Land = () => {
                 <div className="flex justify-center items-center my-6 sm:mb-20">
                   <a
                     href="/apply"
-                    className=" inline-block px-7 py-3 mr-1.5 border-2 border-sky-800 text-white font-medium text-sm leading-snug uppercase rounded-full shadow-md  hover:bg-opacity-50 focus:outline-none focus:ring-0 transition duration-150 ease-in-out hover:bg-sky-900"
+                    className=" inline-block px-7 py-3 mr-1.5 border-2 border-sky-800 text-white font-medium text-sm leading-snug uppercase  shadow-md  hover:bg-opacity-50 focus:outline-none focus:ring-0 transition duration-150 ease-in-out hover:bg-sky-900"
                     srole="button"
                   >
                     Apply Now
