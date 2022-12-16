@@ -171,7 +171,7 @@ export default function Header() {
                 Donate
               </a>
               <p className="mt-3 text-center text-base font-medium text-gray-500">
-                Do you need Support?{" "}
+                Do you need Support?
                 <a href="/apply" className="text-sky-600 hover:text-sky-800">
                   Apply Now
                 </a>
