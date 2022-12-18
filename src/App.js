@@ -15,6 +15,7 @@ import Faq from "./pages/Faq";
 import Events from "./pages/Events";
 import ApplyPage from "./pages/ApplyPage";
 import Development from "./pages/Development";
+import Payment from "./pages/Payment";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/events" element={<Events />} />
             <Route path="/apply" element={<ApplyPage />} />
             <Route path="/under" element={<Development />} />
+            <Route path="/payment" element={<Payment />} />
           </Routes>
 
           {/* <Header />
